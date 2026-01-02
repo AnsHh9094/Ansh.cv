@@ -1,5 +1,7 @@
 # Karan's Minimalist Resume
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/k4ran909/cv)
+
 ![Resume Preview](./public/resume-preview.png)
 
 A clean, minimalist digital resume and portfolio built with modern web technologies. Focuses on readability, print-friendliness, and ease of maintenance.
