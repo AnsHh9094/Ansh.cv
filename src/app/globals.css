@@ -78,3 +78,21 @@
 .print-force-new-page {
   page-break-before: always;
 }
+
+@media print {
+  @page {
+    /* This removes default headers and footers (date, title, url, page number) in most browsers */
+    margin: 0;
+  }
+
+  body {
+    /* Add some padding back to the body so content isn't right at the edge of the paper */
+    padding: 2cm; 
+  }
+
+  /* Optional: Enhance color accuracy for print */
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}

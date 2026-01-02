@@ -1,236 +1,111 @@
 import type { ResumeData } from "@/lib/types";
 
 export const RESUME_DATA: ResumeData = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
-  about: "Full Stack Engineer dedicated to building high-quality products.",
+  name: "KARAN",
+  initials: "K",
+  location: "Dehradun, India",
+  locationLink: "https://www.google.com/maps/place/Dehradun",
+  about: "Freelance Full Stack Web Developer",
   summary: (
     <>
-      Full Stack Engineer specializing in high-performance React applications,
-      scalable Node.js services, and real-time collaboration systems.
-      Experienced in technical architecture design and remote team leadership.
+      Freelance Full Stack Web Developer with hands-on experience designing and developing scalable, high-performance web applications using modern technologies such as Node.js, Next.js, React, and TypeScript. Strong understanding of backend systems, databases, and Linux-based cloud environments (AWS, Oracle Cloud). Adept at building user-centric interfaces, optimizing performance, and deploying secure, reliable solutions. Passionate about clean code, continuous learning, and delivering real-world business impact.
     </>
   ),
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  avatarUrl: "https://github.com/k4ran909.png",
+  personalWebsiteUrl: "https://o3dn.online",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "k4ran909@gmail.com",
+    tel: "+919548585867",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/k4ran909",
         icon: "github",
-      },
-      {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
-        icon: "linkedin",
-      },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: "x",
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Graphic Era (Deemed to be University)",
+      degree: "Bachelor of Computer Applications in Computer Science Engineering",
+      start: "2023",
+      end: "2026",
     },
   ],
   work: [
     {
-      company: "Motion",
-      link: "https://motionapp.com/",
-      badges: ["Remote", "AI", "React", "Next.js", "TypeScript", "AdonisJS"],
-      title: "Senior Software Engineer",
-      start: "2025",
-      end: null,
+      company: "Technoz Pvt. Ltd.",
+      link: "",
+      badges: ["Remote", "Node.js", "TypeScript", "GSAP"],
+      title: "Freelance Full Stack Web Developer",
+      start: "Dec 2023",
+      end: "Jan 2024",
       description: (
         <>
-          Working on internal AI agents platform allowing marketing specialists
-          to create AI workflows.
-        </>
-      ),
-    },
-    {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote", "React", "Next.js", "TypeScript", "Node.js"],
-      title: "Software Architect",
-      start: "2024",
-      end: "2025",
-      description: (
-        <>
-          Leading technical architecture of a blockchain-based film funding
-          platform.
+          Developed a complete end-to-end website for a hosting company offering VPS and Minecraft server services.
           <ul className="list-inside list-disc">
             <li>
-              Architecting migration from CRA to Next.js for improved
-              performance, SEO, and DX
+              Implemented backend functionality using Node.js and TypeScript, with interactive UI animations powered by GSAP.
             </li>
             <li>
-              Established release process enabling faster deployments and
-              reliable rollbacks
+              Integrated virtualization systems to enable dynamic server provisioning and real-time machine partitioning.
             </li>
             <li>
-              Implementing system-wide monitoring and security improvements
+              Delivered a scalable and performance-optimized solution aligned with business requirements.
             </li>
           </ul>
         </>
       ),
-    },
-    {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: [
-        "Remote",
-        "React",
-        "TypeScript",
-        "Node.js",
-        "GraphQL",
-        "Tailwind CSS",
-      ],
-      title: "Senior Full Stack Developer",
-      start: "2021",
-      end: "2024",
-      description: (
-        <>
-          Senior developer and squad leader for an enterprise agile meeting
-          platform.
-          <ul className="list-inside list-disc">
-            <li>
-              Built design system with Tailwind CSS, improving development speed
-              and time to market
-            </li>
-            <li>
-              Implemented engineering practices: PR automation, code review
-              guidelines, and workflows
-            </li>
-            <li>
-              Open source contributions to Relay DevTools and React i18n tooling
-            </li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote", "React", "TypeScript", "Node.js", "Android", "Kotlin"],
-      title: "Lead Android Developer → Full Stack Developer",
-      start: "2015",
-      end: "2021",
-      description: (
-        <>
-          Successfully transitioned from mobile to full-stack development while
-          leading distributed teams.
-          <ul className="list-inside list-disc">
-            <li>
-              Led frontend team at Evercast, building real-time platform
-              supporting 30+ users per room with HD streaming and collaboration
-              tools
-            </li>
-            <li>
-              Developed offline-first Android app for DKMS, improving donor
-              registration process
-            </li>
-            <li>
-              Led development teams across multiple successful client projects
-            </li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: ["On Site", "Android", "Java", "Kotlin"],
-      title: "Android Developer → Lead Android Developer",
-      start: "2012",
-      end: "2015",
-      description: (
-        <>
-          First Android developer, grew and led a team of 15+ engineers while
-          establishing engineering culture.
-          <ul className="list-inside list-disc">
-            <li>
-              Developed apps for major Polish companies including LOT, Polskie
-              Radio, and Agora
-            </li>
-            <li>Built and mentored high-performing mobile development team</li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: ["On Site", "C/C++", "LTE", "Agile"],
-      title: "C/C++ Developer",
-      start: "2010",
-      end: "2012",
-      description:
-        "Developed software for LTE base stations at enterprise scale, gaining strong fundamentals in software architecture, testing practices, and cross-team collaboration.",
     },
   ],
   skills: [
-    "React/Next.js/Remix",
+    "JavaScript",
     "TypeScript",
-    "Tailwind CSS",
-    "Design Systems",
-    "WebRTC",
-    "WebSockets",
+    "Python",
+    "C",
+    "SQL",
+    "React",
+    "Next.js",
+    "React Native",
+    "HTML5",
+    "CSS3",
+    "TailwindCSS",
+    "Express.js",
     "Node.js",
-    "GraphQL",
-    "Relay",
-    "System Architecture",
-    "Remote Team Leadership",
   ],
   projects: [
     {
-      title: "Monito",
-      techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
-      description:
-        "Browser extension for debugging web applications. Includes taking screenshots, screen recording, E2E tests generation and generating bug reports",
+      title: "Aelly",
+      techStack: ["JavaScript", "HTML", "CSS"],
+      description: "Aelly turns text into realistic handwritten pages with deep customization and easy exports.",
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "k4ran.me/Aelly",
+        href: "http://k4ran.me/Aelly/",
       },
     },
     {
-      title: "Consultly",
+      title: "Portfolio",
       techStack: [
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-        "Tailwind CSS",
-        "PostgreSQL",
-        "Redis",
+        "React",
+        "Redux",
+        "CSS",
+        "JavaScript",
+        "HTML",
+        "Parallax.js",
       ],
-      description:
-        "Platform for online consultations with real-time video meetings and scheduling",
+      description: "A React-based portfolio with designer/developer modes, interactive homepages, and cursor-responsive project cards.",
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "o3dn.online",
+        href: "https://o3dn.online",
       },
     },
     {
-      title: "Minimalist CV",
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
-      description:
-        "An open source minimalist, print friendly CV template with a focus on readability and clean design. >9k stars on GitHub",
+      title: "AellyX",
+      techStack: ["Python", "Shell", "Batchfile"],
+      description: "Python-based stress-testing toolkit to simulate multi-layer attacks and evaluate network resilience.",
       link: {
-        label: "Minimalist CV",
-        href: "https://github.com/BartoszJarocki/cv",
+        label: "github.com/k4ran909/AellyX",
+        href: "https://github.com/k4ran909/AellyX",
       },
     },
   ],
