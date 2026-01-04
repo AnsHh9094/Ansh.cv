@@ -1,12 +1,8 @@
-# Karan's Minimalist Resume
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/k4ran909/cv)
+# Ansh's Resume & Portfolio
 
 ![Resume Preview](./public/resume-preview.png)
 
-A clean, minimalist digital resume and portfolio built with modern web technologies. Focuses on readability, print-friendliness, and ease of maintenance.
-
-Hosted at [o3dn.online](https://o3dn.online)
+A professional digital resume and portfolio built with **Next.js**, **React**, and **TypeScript**. Designed for performance, print-friendliness, and a clean reading experience.
 
 ## 🚀 Tech Stack
 
@@ -18,38 +14,33 @@ Hosted at [o3dn.online](https://o3dn.online)
 ## ✨ Features
 
 *   **Responsive Design:** Optimized for mobile, tablet, and desktop views.
-*   **Print Friendly:** Custom CSS removes clutter (dates, URLs) when printing to PDF.
-*   **Dark/Light Mode:** Automatically adapts to system preferences (or configured via CSS).
-*   **Performance:** Static site generation or server-side rendering for fast load times.
+*   **Print Friendly:** content formatting when printing to PDF.
+*   **Dark/Light Mode:** Automatically adapts to system preferences.
+*   **Performance:** Fast load times with Static Site Generation.
 
 ## 🛠️ Getting Started
 
 1.  **Install dependencies:**
 
     ```bash
-    pnpm install
-    # or
     npm install
     ```
 
 2.  **Run the development server:**
 
     ```bash
-    pnpm dev
-    # or
     npm run dev
     ```
 
-3.  Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3.  Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## 📝 Customization
+## 📝 Configuration
 
-Update your information in `src/data/resume-data.tsx`. This single file contains all the data for the resume, including:
+Edit `src/data/resume-data.tsx` to update:
 *   Personal Details
 *   Work Experience
-*   Education
-*   Skills
-*   Side Projects
+*   Education & Skills
+*   Projects
 
 ## 📄 License
 
