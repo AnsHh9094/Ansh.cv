@@ -1,25 +1,25 @@
 import type { ResumeData } from "@/lib/types";
 
 export const RESUME_DATA: ResumeData = {
-  name: "KARAN",
-  initials: "K",
-  location: "Dehradun, India",
-  locationLink: "https://www.google.com/maps/place/Dehradun",
+  name: "Ansh",
+  initials: "A",
+  location: "India",
+  locationLink: "https://www.google.com/maps/place/India",
   about: "Freelance Full Stack Web Developer",
   summary: (
     <>
-      Freelance Full Stack Web Developer with hands-on experience designing and developing scalable, high-performance web applications using modern technologies such as Node.js, Next.js, React, and TypeScript. Strong understanding of backend systems, databases, and Linux-based cloud environments (AWS, Oracle Cloud). Adept at building user-centric interfaces, optimizing performance, and deploying secure, reliable solutions. Passionate about clean code, continuous learning, and delivering real-world business impact.
+      Motivated BCA third-year student and Freelance Full Stack Web Developer with hands-on experience in designing and developing scalable, high-performance web applications. Proficient in modern JavaScript frameworks, backend systems, and Linux-based cloud environments. Experienced in delivering real-world projects through freelance work, college events, seminars, and client collaborations. Strong focus on clean code, performance optimization, and continuous learning.
     </>
   ),
-  avatarUrl: "https://github.com/k4ran909.png",
-  personalWebsiteUrl: "https://o3dn.online",
+  avatarUrl: "/avatar.png",
+  personalWebsiteUrl: "https://github.com/AnsHh9094",
   contact: {
-    email: "k4ran909@gmail.com",
-    tel: "+919548585867",
+    email: "",
+    tel: "",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/k4ran909",
+        url: "https://github.com/AnsHh9094",
         icon: "github",
       },
     ],
@@ -27,31 +27,25 @@ export const RESUME_DATA: ResumeData = {
   education: [
     {
       school: "Graphic Era (Deemed to be University)",
-      degree: "Bachelor of Computer Applications in Computer Science Engineering",
+      degree: "Bachelor of Computer Applications (BCA)",
       start: "2023",
       end: "2026",
     },
   ],
   work: [
     {
-      company: "Technoz Pvt. Ltd.",
+      company: "Freelance & Design Work",
       link: "",
-      badges: ["Remote", "Node.js", "TypeScript", "GSAP"],
+      badges: ["Freelance", "Design", "Frontend"],
       title: "Freelance Full Stack Web Developer",
-      start: "Dec 2023",
-      end: "Jan 2024",
+      start: "2023",
+      end: "Present",
       description: (
         <>
-          Developed a complete end-to-end website for a hosting company offering VPS and Minecraft server services.
+          Delivered web design, UI illustrations, and frontend assets for freelance clients and college-related events.
           <ul className="list-inside list-disc">
             <li>
-              Implemented backend functionality using Node.js and TypeScript, with interactive UI animations powered by GSAP.
-            </li>
-            <li>
-              Integrated virtualization systems to enable dynamic server provisioning and real-time machine partitioning.
-            </li>
-            <li>
-              Delivered a scalable and performance-optimized solution aligned with business requirements.
+              Contributed to seminars and academic projects with real-world design and development requirements.
             </li>
           </ul>
         </>
@@ -59,53 +53,68 @@ export const RESUME_DATA: ResumeData = {
     },
   ],
   skills: [
-    "JavaScript",
-    "TypeScript",
-    "Python",
-    "C",
-    "SQL",
-    "React",
-    "Next.js",
-    "React Native",
     "HTML5",
     "CSS3",
-    "TailwindCSS",
-    "Express.js",
+    "React.js",
+    "Next.js",
+    "TypeScript",
     "Node.js",
+    "JavaScript",
+    "Python",
+    "Java",
+    "SQL",
+    "NoSQL",
+    "Linux",
+    "AWS",
+    "Oracle Cloud",
+    "Figma",
+    "Adobe XD",
+    "Git",
   ],
   projects: [
     {
-      title: "Aelly",
-      techStack: ["JavaScript", "HTML", "CSS"],
-      description: "Aelly turns text into realistic handwritten pages with deep customization and easy exports.",
+      title: "Mail Scraper",
+      techStack: ["Web App", "Utility"],
+      description: "Developed a utility-based web application for extracting email data efficiently.",
       link: {
-        label: "k4ran.me/Aelly",
-        href: "http://k4ran.me/Aelly/",
+        label: "github.com/AnsHh9094/mail-scraper",
+        href: "https://github.com/AnsHh9094/mail-scraper",
       },
     },
     {
-      title: "Portfolio",
-      techStack: [
-        "React",
-        "Redux",
-        "CSS",
-        "JavaScript",
-        "HTML",
-        "Parallax.js",
-      ],
-      description: "A React-based portfolio with designer/developer modes, interactive homepages, and cursor-responsive project cards.",
+      title: "Portfolio Website (Folioss)",
+      techStack: ["Web Design", "Responsive UI"],
+      description: "Designed and developed a personal portfolio with responsive UI and modern layouts.",
       link: {
-        label: "o3dn.online",
-        href: "https://o3dn.online",
+        label: "github.com/AnsHh9094/folioss",
+        href: "https://github.com/AnsHh9094/folioss",
       },
     },
     {
-      title: "AellyX",
-      techStack: ["Python", "Shell", "Batchfile"],
-      description: "Python-based stress-testing toolkit to simulate multi-layer attacks and evaluate network resilience.",
+      title: "Next.js E-Commerce Platform",
+      techStack: ["Next.js", "Scalable Architecture"],
+      description: "Built a scalable e-commerce application using Next.js with performance-focused architecture.",
       link: {
-        label: "github.com/k4ran909/AellyX",
-        href: "https://github.com/k4ran909/AellyX",
+        label: "github.com/AnsHh9094/nextjs-commerce",
+        href: "https://github.com/AnsHh9094/nextjs-commerce",
+      },
+    },
+    {
+      title: "AntiAFK Tool",
+      techStack: ["Automation", "Tool"],
+      description: "Created a background automation tool to prevent inactivity detection.",
+      link: {
+        label: "github.com/AnsHh9094/antiAFK",
+        href: "https://github.com/AnsHh9094/antiAFK",
+      },
+    },
+    {
+      title: "IvaLocker",
+      techStack: ["Security", "Process Management"],
+      description: "Developed a utility-based application focusing on security and process management concepts.",
+      link: {
+        label: "github.com/AnsHh9094/Ivalocker",
+        href: "https://github.com/AnsHh9094/Ivalocker",
       },
     },
   ],
