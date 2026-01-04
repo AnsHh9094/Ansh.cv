@@ -12,7 +12,7 @@ export const RESUME_DATA: ResumeData = {
     </>
   ),
   avatarUrl: "/avatar.png",
-  personalWebsiteUrl: "https://github.com/AnsHh9094",
+  personalWebsiteUrl: "https://ansh-resume-sable.vercel.app/",
   contact: {
     email: "",
     tel: "",

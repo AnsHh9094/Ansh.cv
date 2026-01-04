@@ -2,6 +2,8 @@
 
 ![Resume Preview](./public/resume-preview.png)
 
+Hosted at [https://ansh-resume-sable.vercel.app/](https://ansh-resume-sable.vercel.app/)
+
 A professional digital resume and portfolio built with **Next.js**, **React**, and **TypeScript**. Designed for performance, print-friendliness, and a clean reading experience.
 
 ## 🚀 Tech Stack
